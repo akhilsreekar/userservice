@@ -1,2 +1,12 @@
-package com.akhilsreekar.userservice.models;public class Role {
+package com.akhilsreekar.userservice.models;
+
+import jakarta.persistence.Entity;
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity
+@Getter
+@Setter
+public class Role extends BaseModel{
+    private String name;
 }

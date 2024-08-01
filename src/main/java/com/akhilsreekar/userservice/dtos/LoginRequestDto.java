@@ -1,2 +1,11 @@
-package com.akhilsreekar.userservice.dtos;public class LoginRequestDto {
+package com.akhilsreekar.userservice.dtos;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class LoginRequestDto {
+    private String email;
+    private String password;
 }
